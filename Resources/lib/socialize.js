@@ -10,8 +10,7 @@ socialize.API = function(_args) {
         AUTH_TOKEN_SECRET: null,
         OAUTH_KEY: null,
         OAUTH_SECRET: null,
-        authUrl: 'https://socialize.localhost:8001/v1/authenticate/',
-        url: 'http://socialize.localhost:8001/v1/',
+        url: 'http://api.getsocialize.com/v1/',
 
         /* create the oauth request */
         create_request: function(_args) {

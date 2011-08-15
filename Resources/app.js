@@ -19,7 +19,7 @@ sAPI = socialize.API({
 	oauth_secret:'46d212f7-17f4-464c-a9b1-679db3bc5d25',
 });
 
-//sAPI.clearTokens();
+sAPI.clearTokens();
 
 if(sAPI.getTokenSecret() == null || sAPI.getToken() == null){
 	//sAPI.autenticate();
